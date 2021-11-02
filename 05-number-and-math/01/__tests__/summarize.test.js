@@ -9,7 +9,7 @@ describe('summarize ', () => {
     expect(result).toBe(60);
   });
 
-  test('should return the sum of numbers and skip non integer values', () => {
+  test('should return the sum of numbers and skip non-integer values', () => {
     const numbers = [10, 20, 30.1];
 
     const result = summarize(...numbers);
